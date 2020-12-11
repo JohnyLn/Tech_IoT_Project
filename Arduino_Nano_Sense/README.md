@@ -1,28 +1,18 @@
-## Ardunio Nano 33 Sense
+# Ardunio Nano 33 Sense
 
 [Store Arduino Nano 33 BLE SENSE with headers 29€ HT](https://store.arduino.cc/arduino-nano-33-ble-sense-with-headers)
 
-
-![Nano Sense 33](nano_sense_33.jpg)
-
+![Nano Sense 33](../media/nano_sense/nano_sense_33.jpg)
 
 > * [Start with Arduino Nano SENSE 33](https://www.arduino.cc/en/Guide/NANO33BLESense)
-
-
 > * [Sensor Arduino Nano SENSE 33](https://gilberttanner.com/blog/arduino-nano-33-ble-sense-overview)
-
 > * [Sensor Arduino Nano SENSE 33 bis](https://create.arduino.cc/projecthub/gilbert-tanner/arduino-nano-33-ble-sense-overview-371c69)
-
 > * [Projet Example](http://hebergement.universite-paris-saclay.fr/supraconductivite/v/wp-content/uploads/2020/10/tuto_phyphox_fr_ppt.pdf)
-
 > * [All project](http://hebergement.universite-paris-saclay.fr/supraconductivite/projet/arduino_nano/)
 
+![Install board](../media/nano_sense/intall-board.jpg)
 
-
-![Install board](intall-board.jpg)
-
-
-![Schema](NANO-33-BLE-Sense_sensor-indentification.png)
+![Schema](../media/nano_sense/NANO-33-BLE-Sense_sensor-indentification.png)
 
 * **HTS221** - Capacitive digital sensor for relative humidity and temperature
 
@@ -36,14 +26,16 @@
 
 * **BLE - Bluetooth Low Energy** - Bluetooth Low Energy is a version of Bluetooth wireless technology, specially optimized for low power use at low data rates. *(Exemple BLE phyphox for phone )*
 
+## Pin - Datasheet
 
-### Pin - Datasheet
-
-![Pin Nano SENSE 33](Pinout-NANOsense_latest.png)
+![Pin Nano SENSE 33](../media/nano_sense/Pinout-NANOsense_latest.png)
 
 ## Sensor Grove IR
 
-* **IR Distance Interrupter** Grove 
+* **IR Distance Interrupter** Grove
+
+![IR_Grove](../media/nano_sense/IR_Grove.JPG)
+
 [Interrupteur Infrarouge v1.2 Grove](https://www.robotshop.com/eu/fr/interrupteur-infrarouge-v12-grove.html)
 
 * [Grove Tutoriel](https://wiki.seeedstudio.com/Grove-IR_Distance_Interrupter_v1.2/)
@@ -76,7 +68,6 @@ void loop()  {
     }
 }
 ```
-
 
 ## BLE Test
 
